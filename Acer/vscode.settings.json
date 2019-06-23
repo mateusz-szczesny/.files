@@ -1,0 +1,33 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Predawn",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.statusBar.feedback.visible": false,
+    "python.pythonPath": "C:\\Users\\mszczesny\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.quickSuggestionsDelay": 100,
+    "editor.minimap.enabled": false,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "600",
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "[plaintext]": {
+        "editor.quickSuggestions": false
+    },
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false
+}
