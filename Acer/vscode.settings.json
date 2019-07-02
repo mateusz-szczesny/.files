@@ -1,6 +1,5 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Monokai",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
@@ -10,8 +9,8 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
     "editor.fontSize": 16,
-    "editor.fontWeight": "500",
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "300",
+    "editor.fontFamily": "Source Code Pro, monospace",
     "editor.formatOnSave": true,
     "editor.quickSuggestionsDelay": 100,
     "editor.minimap.enabled": false,
@@ -21,7 +20,7 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeight": "600",
     "code-runner.executorMap": {
-        "python": "$pythonPath -u $fullFileName"
+        "python": "$pythonPath -u $fullFileName",
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
@@ -37,5 +36,10 @@
     "dart.flutterCreateIOSLanguage": "swift",
     "dart.flutterCreateOrganization": "omprojects",
     "dart.flutterSdkPath": "C:\\src\\flutter",
-    "dart.enableSdkFormatter": true
+    "dart.enableSdkFormatter": true,
+    "go.goroot": "C:\\Go",
+    "go.autocompleteUnimportedPackages": true,
+    "go.buildOnSave": "package",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package"
 }
